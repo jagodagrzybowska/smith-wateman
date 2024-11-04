@@ -11,9 +11,15 @@ if len(sequences)!=2:
     raise ValueError("Liczba sekwencji w pliku powinna wynosic 2")
 
 else:
-    match=int(input('Wprowadz wartosc dla match (l. calkowita): '))
-    mismatch=int(input('Wprowadz wartosc dla mismatch (l. calkowita): '))
-    gap=int(input('Wprowadz wartosc dla gap (l. calkowita): '))
+    match=float(input('Wprowadz wartosc dla match (podana wartosc zostanie zaokraglona do l.calkowitej): '))
+    match=round(match)
+    #print(match)
+    mismatch=float(input('Wprowadz wartosc dla mismatch (podana wartosc zostanie zaokraglona do l.calkowitej): '))
+    mismatch=round(mismatch)
+    #print(mismatch)
+    gap=float(input('Wprowadz wartosc dla gap (podana wartosc zostanie zaokraglona do l.calkowitej): '))
+    gap=round(gap)
+    #print(gap)
 
 s1=sequences[0]
 s2=sequences[1]
