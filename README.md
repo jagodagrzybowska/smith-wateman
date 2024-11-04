@@ -20,9 +20,9 @@ M[i,j] = max{M[i-1,j-1] + s(i,j), M[i-1,j] + g, M[i,j-1] + g, 0}
 
 1. Zapisz w pliku *para_sekwencji.fa* dwie sekwencje, które mają zostać dopasowane wraz z nagłówkami zaczynającycmi się od znaku ">"
 2. Uruchom program w terminalu
-3. Jeśli zawartość pliku jest prawidłowa, program poprosi o wprowadzenie wartości (w formie liczb całkowitych) dla parametrów *match, mismatch, gap*
-4. Jeśli wprowadzone wartości są prawidłowe, program dopasuje sekwencje za pomocą zaimplementowaego algorytmu Smitha-Watermana
-5. Dopasowanie sekwencji oraz *score* dla dopasowania zapisane zostaną w pliku tekstowym *sw.txt*
+3. Jeśli zawartość pliku jest prawidłowa, program poprosi o wprowadzenie wartości dla parametrów *match, mismatch, gap* (podane wartości są zaokrąglane do liczb całkowitych)
+5. Program dopasowuje sekwencje za pomocą zaimplementowaego algorytmu Smitha-Watermana
+6. Dopasowanie sekwencji oraz *score* dla dopasowania zapisane zostaną w pliku tekstowym *sw.txt*
 
 ## Przykładowe użycie
 
@@ -41,9 +41,9 @@ python smith-waterman.py para_sekwencji.fa
 
 **Wprowadzenie wartości parametrów**
 ```
-Wprowadz wartosc dla match (l. calkowita): 1
-Wprowadz wartosc dla mismatch (l. calkowita): -1
-Wprowadz wartosc dla gap (l. calkowita): 0
+Wprowadz wartosc dla match (podana wartosc zostanie zaokraglona do l.calkowitej): 1
+Wprowadz wartosc dla mismatch (podana wartosc zostanie zaokraglona do l.calkowitej): -1
+Wprowadz wartosc dla gap (podana wartosc zostanie zaokraglona do l.calkowitej): 0
 ```
 
 **Zawartość pliku wyjściowego**
