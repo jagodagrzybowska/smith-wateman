@@ -65,6 +65,7 @@ while M[i][j]!=0:
 s1_alignment=''.join(s1_alignment)
 s2_alignment=''.join(s2_alignment)
 
+
 with open('sw.txt', 'w') as outFile:
     outFile.write(f's1: {s1_alignment}\n')
     outFile.write(f's2: {s2_alignment}\n')
