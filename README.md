@@ -1,6 +1,6 @@
 # Algorytm Smitha-Watermana
 
-Algorytm Smitha-Watermana wykorzystywany jest do lokalnego dopasowania dwóch sekwencji metodą programowania dynamicznego. Polega na stworzeniu i uzupełnieniu macierzy o n+1 wierszach i m+1 kolumnach, gdzie n i m to długości sekwencji, a następnie wykonaniu backtrackingu. Jest odpowiedni do porównywania sekwencji mających różną długość i pochodzenie, ponieważ nie musimy w nim uwzględniać całych sekwencji.
+Algorytm Smitha-Watermana wykorzystywany jest do lokalnego dopasowania dwóch sekwencji metodą programowania dynamicznego. Polega na stworzeniu i uzupełnieniu macierzy o n+1 kolumnach i m+1 wierszach, gdzie n i m to długości sekwencji, a następnie wykonaniu backtrackingu. Jest odpowiedni do porównywania sekwencji mających różną długość i pochodzenie, ponieważ nie musimy w nim uwzględniać całych sekwencji.
 
 ## Działanie programu
 
